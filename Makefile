@@ -115,7 +115,7 @@ first: all
 
 all: Makefile $(TARGET)
 
-$(TARGET): ui_Mainwindow.h ui_resultwindow.h $(OBJECTS)  
+$(TARGET): ui_resultwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: Election.pro  /usr/share/qt4/mkspecs/linux-g++-64/qmake.conf /usr/share/qt4/mkspecs/common/unix.conf \
