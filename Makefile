@@ -225,7 +225,7 @@ compiler_moc_source_make_all:
 compiler_moc_source_clean:
 compiler_uic_make_all: ui_Mainwindow.h ui_resultwindow.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_Mainwindow.h ui_resultwindow.h
+	-$(DEL_FILE) ui_resultwindow.h
 ui_Mainwindow.h: Mainwindow.ui
 	/usr/lib/x86_64-linux-gnu/qt4/bin/uic Mainwindow.ui -o ui_Mainwindow.h
 
