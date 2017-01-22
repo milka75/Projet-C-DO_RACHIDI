@@ -205,8 +205,8 @@ public:
         listWidget->setSortingEnabled(__sortingEnabled);
 
         pb_addCandidat->setText(QApplication::translate("MainWindow", "Ajouter un candidat", 0, QApplication::UnicodeUTF8));
-        pb_removeCandidat->setText(QApplication::translate("MainWindow", "Supprimer un Candidat", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("MainWindow", "Nombre de Votants", 0, QApplication::UnicodeUTF8));
+        pb_removeCandidat->setText(QApplication::translate("MainWindow", "Supprimer un candidat", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("MainWindow", "Nombre de votants", 0, QApplication::UnicodeUTF8));
         pb_vote->setText(QApplication::translate("MainWindow", "Voter", 0, QApplication::UnicodeUTF8));
         groupBox_3->setTitle(QApplication::translate("MainWindow", "R\303\251sultats", 0, QApplication::UnicodeUTF8));
         pb_results->setText(QApplication::translate("MainWindow", "Afficher les r\303\251sultats ", 0, QApplication::UnicodeUTF8));

@@ -61,7 +61,7 @@
          <item>
           <widget class="QPushButton" name="pb_removeCandidat">
            <property name="text">
-            <string>Supprimer un Candidat</string>
+            <string>Supprimer un candidat</string>
            </property>
           </widget>
          </item>
@@ -72,7 +72,7 @@
          <item>
           <widget class="QLabel" name="label">
            <property name="text">
-            <string>Nombre de Votants</string>
+            <string>Nombre de votants</string>
            </property>
           </widget>
          </item>
